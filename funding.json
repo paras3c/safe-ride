@@ -1,5 +1,5 @@
 {
-  "$schema": "https://t.co/gbvCGk4pQx",
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
   "version": "v1.1.0",
   "entity": {
     "type": "individual",
@@ -8,7 +8,7 @@
     "email": "def.siddhartharajbongshi@gmail.com",
     "description": "ML researcher and open-source builder. Ex-Hugging Face, current Research Fellow at University of Nottingham. Building DePIN infrastructure for driver safety and sovereign space systems.",
     "webpageUrl": {
-      "url": "https://t.co/ogUu8VqfkX"
+      "url": "https://github.com/paras3c"
     }
   },
   "projects": [{
@@ -16,10 +16,10 @@
     "name": "SafeRide",
     "description": "Open-source DePIN driver safety network with real-time fatigue/distraction detection via edge AI, IoT telemetry, and tamper-evident incident logging on Solana. Go backend, SvelteKit dashboard, fully open-source under MIT.",
     "webpageUrl": {
-      "url": "https://t.co/1GSjXz1eQm"
+      "url": "https://github.com/paras3c/safe-ride"
     },
     "repositoryUrl": {
-      "url": "https://t.co/1GSjXz1eQm"
+      "url": "https://github.com/paras3c/safe-ride"
     },
     "licenses": ["spdx:MIT"],
     "tags": ["depin", "iot", "edge-ai", "solana", "driver-safety", "computer-vision", "telemetry", "open-source"]
