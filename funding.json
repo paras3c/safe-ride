@@ -1,0 +1,66 @@
+{
+  "$schema": "https://t.co/gbvCGk4pQx",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Siddhartha Rajbongshi",
+    "email": "def.siddhartharajbongshi@gmail.com",
+    "description": "ML researcher and open-source builder. Ex-Hugging Face, current Research Fellow at University of Nottingham. Building DePIN infrastructure for driver safety and sovereign space systems.",
+    "webpageUrl": {
+      "url": "https://t.co/ogUu8VqfkX"
+    }
+  },
+  "projects": [{
+    "guid": "saferide",
+    "name": "SafeRide",
+    "description": "Open-source DePIN driver safety network with real-time fatigue/distraction detection via edge AI, IoT telemetry, and tamper-evident incident logging on Solana. Go backend, SvelteKit dashboard, fully open-source under MIT.",
+    "webpageUrl": {
+      "url": "https://t.co/1GSjXz1eQm"
+    },
+    "repositoryUrl": {
+      "url": "https://t.co/1GSjXz1eQm"
+    },
+    "licenses": ["spdx:MIT"],
+    "tags": ["depin", "iot", "edge-ai", "solana", "driver-safety", "computer-vision", "telemetry", "open-source"]
+  }],
+  "funding": {
+    "channels": [{
+      "guid": "bank",
+      "type": "bank",
+      "description": "Email for bank transfer details"
+    }],
+    "plans": [
+      {
+        "guid": "pilot-deployment",
+        "status": "active",
+        "name": "Pilot deployment funding",
+        "description": "Fund 1-month pilot with 10 drivers, hardware kits, and on-chain logging validation",
+        "amount": 4000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["bank"]
+      },
+      {
+        "guid": "dev-compensation",
+        "status": "active",
+        "name": "Developer compensation",
+        "description": "Monthly maintainer time for SafeRide development and community support",
+        "amount": 1000,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["bank"]
+      },
+      {
+        "guid": "goodwill",
+        "status": "active",
+        "name": "Goodwill support",
+        "description": "Any amount to support open-source DePIN safety infrastructure",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["bank"]
+      }
+    ]
+  }
+}
